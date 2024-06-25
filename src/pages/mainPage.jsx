@@ -7,7 +7,7 @@ import ellipse1 from "../assets/images/Ellipse 1.png";
 import vector1 from "../assets/images/Vector 1.png";
 import imgDog1 from "../assets/images/img-dog-1.png";
 import arrows from "../assets/images/arrows.png";
-import imgEvents from "../assets/images/img-events.png";
+// import imgEvents from "../assets/images/img-events.png";
 import imgAnimalWaiting from "../assets/images/img-animal-waiting.png";
 import imgForHelpAnimals from "../assets/images/img-for-help-animals.png";
 import "./style-mainPage.css";
@@ -59,7 +59,7 @@ const MainPage = () => {
           </div>
         </section>
       </div>
-      <section className="marginSection events">
+      {/* <section className="marginSection events">
         <div className="events-title-container">
           <h1>Мероприятия</h1>
           <div className="arrows">
@@ -83,7 +83,7 @@ const MainPage = () => {
             <p className="event-date">12.06.2024</p>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="marginSection ourFreinds">
         <div className="left-side-section">
           <h1 className="font-size-64">
