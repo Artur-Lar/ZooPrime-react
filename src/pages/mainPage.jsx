@@ -23,20 +23,34 @@ const MainPage = () => {
     <div>
       <section className="marginSection start">
         <div className="paw-container">
-          <img src={ellipse5} alt="paw1" className="paw1" />
-          <img src={ellipse4} alt="paw2" className="paw2" />
-          <img src={ellipse3} alt="paw3" className="paw3" />
-          <img src={ellipse1} alt="paw4" className="paw4" />
-          <img src={vector1} alt="pic1" className="pic1" />
-          <p className="textAngst animal">Животным</p>
-          <p className="textAngst need-home">Нужен дом</p>
+          <div className="paw-and-dog">
+            <div className="paw1-container">
+              <img src={ellipse5} alt="paw1" className="paw1" />
+            </div>
+            <div className="paw2-container">
+              <img src={ellipse4} alt="paw2" className="paw2" />
+            </div>
+            <div className="paw3-container">
+              <img src={ellipse3} alt="paw3" className="paw3" />
+            </div>
+            <div className="paw4-container">
+              <img src={ellipse1} alt="paw4" className="paw4" />
+            </div>
+            <div className="pic1-container">
+              <img src={vector1} alt="pic1" className="pic1" />
+            </div>
+          </div>
+          <div className="text-animal-need-home">
+            <p className="textAngst animal">Животным</p>
+            <p className="textAngst need-home">Нужен дом</p>
+          </div>
           <button className="btn want-help">Хочу помочь</button>
         </div>
       </section>
       <section className="marginSection aboutUs">
-        <h1>О нас</h1>
+        <h1 className="title">О нас</h1>
         <div className="aboutUs-container">
-          <img src={imgDog1} alt="img-dog-1" />
+          <img className="img-aboutUs" src={imgDog1} alt="img-dog-1" />
           <p className="text-start">
             <span className="text-bold">Фонд для животных</span> — это место,
             где содержат бездомных, потерянных или брошенных собак и кошек.
@@ -50,7 +64,7 @@ const MainPage = () => {
       </section>
       <div className="section-wrapper">
         <section className="marginSection helpUs">
-          <h1>Как нам помочь?</h1>
+          <h1 className="title">Как нам помочь?</h1>
           <div className="blocks-container">
             <div className="block">Сделать так</div>
             <div className="block">Сделать так</div>
@@ -61,7 +75,7 @@ const MainPage = () => {
       </div>
       {/* <section className="marginSection events">
         <div className="events-title-container">
-          <h1>Мероприятия</h1>
+          <h1 className="title">Мероприятия</h1>
           <div className="arrows">
             <img src={arrows} alt="arrows" />
           </div>
@@ -86,7 +100,7 @@ const MainPage = () => {
       </section> */}
       <section className="marginSection ourFreinds">
         <div className="left-side-section">
-          <h1 className="font-size-64">
+          <h1 className="title font-size-64">
             Все животные <span className="light-color">ждут своих хозяев!</span>
           </h1>
           <p>
@@ -100,18 +114,26 @@ const MainPage = () => {
             <button className="transparent btn">Хочу приехать</button>
           </div>
         </div>
-        <img src={imgAnimalWaiting} alt="img-animal-waiting" />
+        <img
+          className="img-animal-waiting"
+          src={imgAnimalWaiting}
+          alt="img-animal-waiting"
+        />
       </section>
       <section className="marginSection helpingAnimals">
         <div className="events-title-container">
-          <h1>Помощь вашим животным</h1>
+          <h1 className="title">Помощь вашим животным</h1>
           <div className="arrows">
             <img src={arrows} alt="arrows" />
           </div>
         </div>
         <div className="blocks-container">
           <div className="block-for-animalHelp">
-            <img src={imgForHelpAnimals} alt="img-for-help-animals" />
+            <img
+              className="img-aboutUs"
+              src={imgForHelpAnimals}
+              alt="img-for-help-animals"
+            />
             <p className="event-title">Муня, девочка, 2,5 года</p>
             <p className="event-title">
               Собака — это домашнее животное с продолговатым поджарым телом,
@@ -121,7 +143,11 @@ const MainPage = () => {
             <button className="btn want-help-btn">Помочь</button>
           </div>
           <div className="block-for-animalHelp">
-            <img src={imgForHelpAnimals} alt="img-for-help-animals" />
+            <img
+              className="img-aboutUs"
+              src={imgForHelpAnimals}
+              alt="img-for-help-animals"
+            />
             <p className="event-title">Муня, девочка, 2,5 года</p>
             <p className="event-title">
               Собака — это домашнее животное с продолговатым поджарым телом,
@@ -131,7 +157,11 @@ const MainPage = () => {
             <button className="btn want-help-btn">Помочь</button>
           </div>
           <div className="block-for-animalHelp">
-            <img src={imgForHelpAnimals} alt="img-for-help-animals" />
+            <img
+              className="img-aboutUs"
+              src={imgForHelpAnimals}
+              alt="img-for-help-animals"
+            />
             <p className="event-title">Муня, девочка, 2,5 года</p>
             <p className="event-title">
               Собака — это домашнее животное с продолговатым поджарым телом,
@@ -143,7 +173,7 @@ const MainPage = () => {
         </div>
       </section>
       <section className="marginSection rules">
-        <h1>Что делать, если я нашел животное?</h1>
+        <h1 className="title">Что делать, если я нашел животное?</h1>
         <div className="rules-container">
           <p className="numbered-paragraph grid-item-1">
             <span className="number">1.</span>

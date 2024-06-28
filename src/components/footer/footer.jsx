@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h1>+7 (500) 500-50-50</h1>
+          <h1 className="phone-number">+7 (500) 500-50-50</h1>
           <p>Круглосуточно</p>
         </div>
         <div>

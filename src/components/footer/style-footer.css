@@ -11,6 +11,11 @@
   margin: auto;
   max-width: 1440px;
 }
+@media (max-width: 767px) {
+  .footer-container {
+    display: block;
+  }
+}
 .footer-block-item,
 .adress {
   display: flex;
@@ -25,4 +30,7 @@
 }
 .footer-logos {
   display: block;
+}
+.phone-number {
+  font-size: 32px;
 }

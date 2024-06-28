@@ -34,13 +34,31 @@ const Header = () => {
                 О нас
               </a>
             </li>
-            <li></li>
+            <li>
+              <a href="#" className="menu-item">
+                Как нам помочь
+              </a>
+            </li>
+            <li>
+              <a href="#" className="menu-item">
+                Мероприятия
+              </a>
+            </li>
+            <li>
+              <a href="#" className="menu-item">
+                Наши любимцы
+              </a>
+            </li>
+            <li>
+              <a href="#" className="menu-item">
+                Что делать, если я нашел животное
+              </a>
+            </li>
             <li>
               <a href="#" className="menu-item">
                 Контакты
               </a>
             </li>
-            <li></li>
           </ul>
         </div>
       </div>
