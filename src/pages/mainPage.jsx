@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import ellipse5 from "../assets/images/Ellipse 5.svg";
-import ellipse4 from "../assets/images/Ellipse 4.png";
-import ellipse3 from "../assets/images/Ellipse 3.png";
-import ellipse1 from "../assets/images/Ellipse 1.png";
-import vector1 from "../assets/images/Vector 1.png";
+// import ellipse5 from "../assets/images/Ellipse 5.svg";
+// import ellipse4 from "../assets/images/Ellipse 4.png";
+// import ellipse3 from "../assets/images/Ellipse 3.png";
+// import ellipse1 from "../assets/images/Ellipse 1.png";
+// import vector1 from "../assets/images/Vector 1.png";
 import imgDog1 from "../assets/images/img-dog-1.png";
+import singlePawImage from "../assets/images/paw-image.png";
 import arrows from "../assets/images/arrows.png";
 // import imgEvents from "../assets/images/img-events.png";
 import imgAnimalWaiting from "../assets/images/img-animal-waiting.png";
@@ -23,7 +24,10 @@ const MainPage = () => {
     <div>
       <section className="marginSection start">
         <div className="paw-container">
-          <div className="paw-and-dog">
+          <div>
+            <img src={singlePawImage} alt="singlePawImage" />
+          </div>
+          {/* <div className="paw-and-dog">
             <div className="paw1-container">
               <img src={ellipse5} alt="paw1" className="paw1" />
             </div>
@@ -39,7 +43,7 @@ const MainPage = () => {
             <div className="pic1-container">
               <img src={vector1} alt="pic1" className="pic1" />
             </div>
-          </div>
+          </div> */}
           <div className="text-animal-need-home">
             <p className="textAngst animal">Животным</p>
             <p className="textAngst need-home">Нужен дом</p>
