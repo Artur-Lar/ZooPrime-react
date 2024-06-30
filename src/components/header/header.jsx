@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "/ZooPrime-react/zoo-prime/src/assets/images/logo.svg";
+import logo from "../../assets/images/logo.svg";
 import "./style-header.css";
 
 const Header = () => {
