@@ -1,4 +1,5 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
@@ -54,6 +55,11 @@ module.exports = {
   resolve: {
     extensions: [".js", ".jsx"],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./public/index.html", // Исходный шаблон HTML
+    }),
+  ],
   mode: "development",
   devServer: {
     contentBase: path.resolve(__dirname, "dist"),
